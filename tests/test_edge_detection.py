@@ -8,7 +8,6 @@ import matplotlib.image as mpimg
 
 class TestEdgeDetection(unittest.TestCase):
 
-
     def print_edges_as_image(self, edges):
         """Prints the edges returned by a Canny edge detection function as an image.
 
@@ -23,7 +22,7 @@ class TestEdgeDetection(unittest.TestCase):
         plt.axis('off')  # Hide axes
         plt.show()
 
-    def print_edges_as_image(self, image_path, edges):
+    def print_actual_image_and_edges(self, image_path, edges):
         """Prints the edges returned by a Canny edge detection function as an image.
         Args:
             edges: A NumPy array representing the edges.
@@ -52,7 +51,7 @@ class TestEdgeDetection(unittest.TestCase):
         self.assertIsNotNone(edges)
         self.assertEqual(edges.shape, cv2.imread('images/test_image.jpg', cv2.IMREAD_GRAYSCALE).shape)
         # print edges as image
-        self.print_edges_as_image(edges)
+        self.print_actual_image_and_edges(edges)
 
 if __name__ == '__main__':
     unittest.main()
