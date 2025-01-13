@@ -9,7 +9,8 @@ from utils.face_recognition import find_face_locations_and_encodings
 
 class TestFaceRecognition(unittest.TestCase):
     def test_recognize_face(self):
-        face_locations, face_encodings = find_face_locations_and_encodings('images/human_face.jpg')
+        image_path = 'images/human_face.jpg'
+        face_locations, face_encodings = find_face_locations_and_encodings(image_path)
         print("Number of faces detected:", len(face_locations))
         print("\nOriginal image")
         display(Image.open(image_path))
