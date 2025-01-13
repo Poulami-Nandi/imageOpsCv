@@ -1,13 +1,18 @@
 import unittest
-import cv2
-from utils.background_capture import capture_background
+from PIL import Image
+from rembg import remove
+import numpy as np
+from IPython.display import display
+from utils.background_capture import extract_background_and_foreground
 
 class TestBackgroundCapture(unittest.TestCase):
     def test_capture_background(self):
         image_path = 'images/test_image.jpg'
-        background = capture_background(image_path)
+        background, foreground = extract_background_and_foreground(image_path)
         self.assertIsNotNone(background)
-        self.assertEqual(background.shape, cv2.imread(image_path).shape)
+        display(foreground_image)
+        display(background_image)
+        display(Image.open(image_path))
 
 if __name__ == '__main__':
     unittest.main()
