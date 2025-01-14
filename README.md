@@ -46,42 +46,40 @@ Note: Ensure that you have the necessary system dependencies for OpenCV and Tess
 
 ## Utilities
 ### **Canny Edge Detection**
-Description: Applies the Canny edge detection algorithm to an input image to highlight edges.
-
-Implementation: utils/canny_edge_detection.py
-
-Test Script: tests/test_canny_edge_detection.py
+* Description: Applies the Canny edge detection algorithm to an input image to highlight edges.
+* Implementation: utils/canny_edge_detection.py
+* Test Script: tests/test_canny_edge_detection.py
 
 ### **Find Contours**
-Description: Identifies and retrieves contours from an input image.
-
-Implementation: utils/find_contours.py
-
-Test Script: tests/test_find_contours.py
+* Description: Identifies and retrieves contours from an input image.
+* Implementation: utils/find_contours.py
+* Test Script: tests/test_find_contours.py
 
 ### **Background Capture**
-Description: Captures and stores the background from an input image, excluding foreground objects.
-Implementation: utils/background_capture.py
-Test Script: tests/test_background_capture.py
+* Description: Captures and stores the background from an input image, excluding foreground objects.
+* Implementation: utils/background_capture.py
+* Test Script: tests/test_background_capture.py
 
 ### **Color Detection**
-Description: Detects specified colors within an input image.
-Implementation: utils/color_detection.py
-Test Script: tests/test_color_detection.py
+* Description: Detects specified colors within an input image.
+* Implementation: utils/color_detection.py
+* Test Script: tests/test_color_detection.py
 
 ### **Mask Generation**
-Description: Generates a binary mask from an input image based on specified criteria.
-Implementation: utils/mask_generation.py
-Test Script: tests/test_mask_generation.py
+* Description: Generates a binary mask from an input image based on specified criteria.
+* Implementation: utils/mask_generation.py
+* Test Script: tests/test_mask_generation.py
 
 ### **Text Recognition (OCR)**
-Description: Performs Optical Character Recognition (OCR) on an input image containing handwritten or printed text using Tesseract.
-Implementation: utils/text_recognition.py
-Test Script: tests/test_text_recognition.py
+* Description: Performs Optical Character Recognition (OCR) on an input image containing handwritten or printed text using Tesseract.
+* Implementation: utils/text_recognition.py
+* Test Script: tests/test_text_recognition.py
 
 ### **Face Detection**
 Description: Detects human faces in an input image and returns their locations and encodings.
+
 Implementation: utils/face_detection.py
+
 Test Script: tests/test_face_detection.py
 Face Feature Extraction
 Description: Extracts facial features using embeddings from an input image containing human faces.
@@ -89,9 +87,9 @@ Implementation: utils/face_feature_extraction.py
 Test Script: tests/test_face_feature_extraction.py
 
 ### **Human Pose Detection**
-Description: Detects human poses from an input image, identifying key body joints.
-Implementation: utils/human_pose_detection.py
-Test Script: tests/test_human_pose_detection.py
+* Description: Detects human poses from an input image, identifying key body joints.
+* Implementation: utils/human_pose_detection.py
+* Test Script: tests/test_human_pose_detection.py
 
 ## Usage
 Each utility function is accompanied by a test script located in the tests directory. To run a test script:
