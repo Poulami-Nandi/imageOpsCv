@@ -47,12 +47,16 @@ Note: Ensure that you have the necessary system dependencies for OpenCV and Tess
 ## Utilities
 ### **Canny Edge Detection**
 Description: Applies the Canny edge detection algorithm to an input image to highlight edges.
+
 Implementation: utils/canny_edge_detection.py
+
 Test Script: tests/test_canny_edge_detection.py
 
 ### **Find Contours**
 Description: Identifies and retrieves contours from an input image.
+
 Implementation: utils/find_contours.py
+
 Test Script: tests/test_find_contours.py
 
 ### **Background Capture**
