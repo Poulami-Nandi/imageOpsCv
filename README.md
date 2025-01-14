@@ -86,11 +86,6 @@ Description: Extracts facial features using embeddings from an input image conta
 Implementation: utils/face_feature_extraction.py
 Test Script: tests/test_face_feature_extraction.py
 
-### **Human Pose Detection**
-* Description: Detects human poses from an input image, identifying key body joints.
-* Implementation: utils/human_pose_detection.py
-* Test Script: tests/test_human_pose_detection.py
-
 ## Usage
 Each utility function is accompanied by a test script located in the tests directory. To run a test script:
 
