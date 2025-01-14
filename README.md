@@ -27,18 +27,20 @@ This repository contains a collection of utility functions for various computer 
    ```bash
    git clone https://github.com/yourusername/computer-vision-utilities.git
    cd computer-vision-utilities
+   ```
 
 2. **Create and activate a virtual environment (optional but recommended):**
 
   ```bash
   python -m venv venv
-  source venv/bin/activate  
-
+  source venv/bin/activate
+```
 
 3. **Install the required dependencies:**
 
 ```bash
 pip install -r requirements.txt
+```
 
 Note: Ensure that you have the necessary system dependencies for OpenCV and Tesseract installed. For detailed instructions, refer to the OpenCV installation guide and the Tesseract installation guide.
 
