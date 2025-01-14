@@ -94,7 +94,7 @@ Ensure that the input images required for testing are placed in the appropriate 
 * Output for Human face detection utility:
 <img src="images/human_face.jpg" alt="Input file" width="300" />
 <img src="output/human_face_detected.jpg" alt="File showing face detected" width="300" />
-<img src="images/human_face_encoding.jpg" alt="File showing face encoding" width="300" />
+<img src="output/human_face_encoding.jpg" alt="File showing face encoding" width="300" />
 * Output for contour detection
 <img src="images/test_image.jpg" alt="Input file" width="300" />
 <img src="output/tiger_contour.jpg" alt="File showing contour detected" width="600" />
