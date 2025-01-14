@@ -6,6 +6,7 @@ class TestTextRecognition(unittest.TestCase):
         text = recognize_text('images/handwritten_note.jpg')
         self.assertIsInstance(text, str)
         self.assertGreater(len(text), 0)
+        print(text)
 
 if __name__ == '__main__':
     unittest.main()
