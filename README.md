@@ -76,23 +76,18 @@ Note: Ensure that you have the necessary system dependencies for OpenCV and Tess
 * Test Script: tests/test_text_recognition.py
 
 ### **Face Detection**
-Description: Detects human faces in an input image and returns their locations and encodings.
-
-Implementation: utils/face_detection.py
-
-Test Script: tests/test_face_detection.py
-Face Feature Extraction
-Description: Extracts facial features using embeddings from an input image containing human faces.
-Implementation: utils/face_feature_extraction.py
-Test Script: tests/test_face_feature_extraction.py
+* Description: Detects human faces in an input image and returns their locations and encodings.
+* Implementation: utils/face_recognition.py
+* Test Script: tests/test_face_recognition.py
 
 ## Usage
 Each utility function is accompanied by a test script located in the tests directory. To run a test script:
 
-python tests/test_<utility_name>.py
+python -m test.<test script name without py extension>
 For example, to test the Canny Edge Detection utility:
-
-python tests/test_canny_edge_detection.py
+```bash
+python -m test.test_text_recognition
+```
 Ensure that the input images required for testing are placed in the appropriate directory or update the file paths in the test scripts accordingly.
 
 ## Contributing
