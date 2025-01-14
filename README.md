@@ -19,7 +19,6 @@ This repository contains a collection of utility functions for various computer 
   - [Human Pose Detection](#human-pose-detection)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -31,9 +30,9 @@ This repository contains a collection of utility functions for various computer 
 
 2. **Create and activate a virtual environment (optional but recommended):**
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install the required dependencies:**
 
