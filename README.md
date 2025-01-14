@@ -13,10 +13,6 @@ This repository contains a collection of utility functions for various computer 
   - [Mask Generation](#mask-generation)
   - [Text Recognition (OCR)](#text-recognition-ocr)
   - [Face Detection](#face-detection)
-  - [Face Feature Extraction](#face-feature-extraction)
-  - [Object Detection](#object-detection)
-  - [Hand Gesture Detection](#hand-gesture-detection)
-  - [Human Pose Detection](#human-pose-detection)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
