@@ -14,6 +14,7 @@ This repository contains a collection of utility functions for various computer 
   - [Text Recognition (OCR)](#text-recognition-ocr)
   - [Face Detection](#face-detection)
 - [Usage](#usage)
+- [Output](#output)
 - [Contributing](#contributing)
 
 ## Installation
@@ -85,6 +86,12 @@ For example, to test the Canny Edge Detection utility:
 python -m test.test_text_recognition
 ```
 Ensure that the input images required for testing are placed in the appropriate directory or update the file paths in the test scripts accordingly.
+
+## Output
+* Output for edge detection utility:
+<img src="images/test_image.jpg" alt="Input file" width="300" />
+<img src="output/tiger_edges.jpg" alt="File showing edges detected" width="300" />
+
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or additional utilities, please fork the repository and submit a pull request. For major changes, open an issue first to discuss your ideas.
